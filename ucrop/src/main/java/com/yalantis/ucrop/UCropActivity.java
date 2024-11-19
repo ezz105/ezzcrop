@@ -316,7 +316,7 @@ public class UCropActivity extends AppCompatActivity {
         final Toolbar toolbar = findViewById(R.id.toolbar);
 
         // Set all of the Toolbar coloring
-        toolbar.setBackgroundColor(android.R.color.background_dark);
+        toolbar.setBackgroundColor(0xff000000);
         toolbar.setTitleTextColor(mToolbarWidgetColor);
 
         final TextView toolbarTitle = toolbar.findViewById(R.id.toolbar_title);
